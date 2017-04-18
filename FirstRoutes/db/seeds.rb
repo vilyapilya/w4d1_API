@@ -20,3 +20,5 @@ share3 = ArtworkShare.create(artwork_id: art2.id, viewer_id: user1.id)
 share4 = ArtworkShare.create(artwork_id: art3.id, viewer_id: user1.id)
 share5 = ArtworkShare.create(artwork_id: art3.id, viewer_id: user2.id)
 share6 = ArtworkShare.create(artwork_id: art3.id, viewer_id: user3.id)
+
+comment1 = Comment.create(artwork_id: art1.id, user_id: user1.id, body: 'cool photo')
