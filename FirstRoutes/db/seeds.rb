@@ -15,5 +15,8 @@ art2 = Artwork.create(title: 'dwarf painting', image_url: 'dwarfpainting.com', a
 art3 = Artwork.create(title: 'human painting', image_url: 'humanpainting.com', artist_id: user3.id)
 
 share1 = ArtworkShare.create(artwork_id: art1.id, viewer_id: user2.id)
-share1 = ArtworkShare.create(artwork_id: art1.id, viewer_id: user3.id)
-share1 = ArtworkShare.create(artwork_id: art2.id, viewer_id: user1.id)
+share2 = ArtworkShare.create(artwork_id: art1.id, viewer_id: user3.id)
+share3 = ArtworkShare.create(artwork_id: art2.id, viewer_id: user1.id)
+share4 = ArtworkShare.create(artwork_id: art3.id, viewer_id: user1.id)
+share5 = ArtworkShare.create(artwork_id: art3.id, viewer_id: user2.id)
+share6 = ArtworkShare.create(artwork_id: art3.id, viewer_id: user3.id)
